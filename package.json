@@ -1,0 +1,46 @@
+{
+  "name": "compass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack",
+    "dev": "webpack-dev-server",
+    "server": "nodemon src/server/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/register": "^7.9.0",
+    "core-js": "^3.6.4",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-slick": "^0.26.1",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.0.1",
+    "styled-system": "^5.1.5",
+    "url-loader": "^4.1.0"
+  }
+}
